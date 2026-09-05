@@ -162,3 +162,7 @@ Tests cover input parsing, path handling, and read-only scans of the current use
 ## 📄 License
 
 Developed by **LZH** and released under the [MIT License](LICENSE), provided “as is” under its terms. Feedback, compatibility reports, and improvement suggestions are welcome through Issues.
+
+## 📮 Contact
+
+For usage feedback, compatibility reports, or collaboration inquiries, contact me at [comlzh@outlook.com](mailto:comlzh@outlook.com).

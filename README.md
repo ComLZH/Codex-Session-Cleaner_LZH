@@ -162,3 +162,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 ## 📄 开源许可证
 
 本项目由 **LZH** 开发，基于 [MIT License](LICENSE) 开源，按许可证约定以“现状”提供。欢迎通过 Issue 反馈使用体验、兼容性问题和改进建议。
+
+## 📮 联系作者
+
+如果你有使用反馈、兼容性问题或合作交流需求，可以通过邮箱联系我：[comlzh@outlook.com](mailto:comlzh@outlook.com)。
