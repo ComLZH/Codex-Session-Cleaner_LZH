@@ -58,7 +58,17 @@ Download and extract the repository ZIP, or clone the repository. In the project
 
 Running from source requires **Windows and Python 3.10+**, with no third-party Python packages. The launcher first tries Python in the current user's Codex runtime cache, then other configured interpreters. If no usable interpreter is available, install Python and add it to PATH.
 
-The console opens with a scan overview and an operation menu. Enter `2` to view sessions grouped by project. Read-only browsing is available while Codex is running.
+The start screen shows the current data root, Codex process status, schema compatibility, session counts, and all available actions. While Codex is running, the tool stays read-only so you can inspect local records first.
+
+![Start screen of Codex Session Cleaner](docs/相关使用截图/初始化页面.png)
+
+*Start screen: the scan environment and session counts appear at the top, followed by the browsing, selection, cleanup, and health-check menu.*
+
+Enter `2` to group sessions by their associated working directories. Each row includes its current scan number, status, title, and a shortened Thread ID. From this list, use menu `3` to inspect evidence or menu `5` to select sessions for deletion.
+
+![Codex sessions grouped by project in the session list](docs/相关使用截图/查询页面效果.png)
+
+*Session list: every record has a number and status label; personal project names and paths in the screenshot have been obscured.*
 
 ### 2. Select conversations to delete
 
